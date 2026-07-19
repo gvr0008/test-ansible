@@ -2,7 +2,7 @@
   "name": "test-ansible",
   "build": {
     "dockerfile": "Dockerfile",
-    "context": ".."
+    "context": "."
   },
   "workspaceFolder": "/workspaces/test-ansible",
   "customizations": {
