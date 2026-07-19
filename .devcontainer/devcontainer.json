@@ -1,0 +1,16 @@
+{
+  "name": "test-ansible",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspaces/test-ansible",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.ansible",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
